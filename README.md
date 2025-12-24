@@ -32,7 +32,7 @@ Before feeding the data into the model, several preprocessing steps were taken t
 3.  **One-Hot Encoding:** The target labels (0-9) were encoded into binary class matrices (e.g., `2` becomes `[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]`).
 4.  **Train/Val Split:** The training data was split into a training set (90%) and a validation set (10%) to monitor overfitting during training.
 
-![Sample Digits](<img width="422" height="417" alt="image" src="https://github.com/user-attachments/assets/1b7a3177-41c3-41c2-9126-87c02b1810bd" />
+![Sample Digits](<img width="422" height="417" alt="digit" src="https://github.com/user-attachments/assets/96f6ad4a-1893-46ae-9879-647301c19391" />
 )
 
 ---
@@ -74,19 +74,19 @@ The model was trained for 5 epochs for demonstration purposes, achieving:
 
 *(Note: Extending training to 20+ epochs typically pushes accuracy to >99%)*
 
-![Learning Curves](<img width="562" height="465" alt="image" src="https://github.com/user-attachments/assets/63d78ee3-a7cd-4a3a-bd86-3584c1105ff3" />
+![Learning Curves](<img width="562" height="465" alt="acc" src="https://github.com/user-attachments/assets/656553af-d09a-4afe-939c-0571f93092ea" />
 )
 
 ### Confusion Matrix
 To evaluate specific weaknesses, we plotted a confusion matrix on the validation set. This highlights which digits are most frequently confused (e.g., distinguishing between a '4' and a '9').
 
-![Confusion Matrix](<img width="549" height="487" alt="image" src="https://github.com/user-attachments/assets/5c694526-7439-4abc-85dc-51ebf3c48ca5" />
+![Confusion Matrix](<img width="549" height="487" alt="cfm" src="https://github.com/user-attachments/assets/fef1a359-33d8-4e15-8184-bf0404508abc" />
 )
 
 ### Error Analysis
 We inspected the most significant errors by calculating the difference between the predicted probability and the true label. The top errors often reveal digits that are poorly written or ambiguous even to the human eye.
 
-![Top Errors](<img width="548" height="423" alt="image" src="https://github.com/user-attachments/assets/6ba13f1e-07f1-459c-9cb0-53fb107fc2f1" />
+![Top Errors](<img width="548" height="423" alt="res" src="https://github.com/user-attachments/assets/0b2ccdac-ca13-4122-adff-a48c2d1012fb" />
 )
 
 ---
