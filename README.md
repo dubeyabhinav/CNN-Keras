@@ -95,7 +95,7 @@ We inspected the most significant errors by calculating the difference between t
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/digit-recognizer-cnn.git](https://github.com/your-username/digit-recognizer-cnn.git)
+    git clone [https://github.com/dubeyabhinav/CNN-Keras.git](https://github.com/dubeyabhinav/CNN-Keras.git)
     cd digit-recognizer-cnn
     ```
 
